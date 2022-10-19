@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/Css/Noticias.css">
+</head>
+
+<body>
+
+    <!--     =============== NAV BAR START =============== -->
+
+
+    <nav class="navbar navbar-expand-lg cusmtomNavBar fixed-top p-2">
+        <div class="container-fluid ms-5">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/Assets/Images/Logo/Logo4.png" alt="Logo Music Tube" class="logoMusic">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMusic"
+                aria-controls="navbarMusic" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon btn btn-info"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMusic">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-sm-0 me-sm ms-5">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light p-1 m-1 btnCustom border border-2" href="/Pages/Artistas.html"
+                            target="_blank" role="button">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light p-1 m-1 btnCustom border border-2" href="/Pages/Noticias.html"
+                            target="_blank">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light p-1  m-1 btnCustom border border-2"
+                            href="/Pages/AcercaDeNosotros.html" target="_blank">Acerca de Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light p-1  m-1 btnCustom border border-2"
+                            href="/Pages/Contactanos.html" target="_blank">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-outline-light mx-lg-3 mx-sm-1 btnCustom border border-2"
+                data-bs-toggle="modal" data-bs-target="#musicTubeModal">Subscríbete
+            </button>
+            <a href="/Pages/Login.html" target="_blank"
+                class="btn btn-outline-light me-lg-5 btnCustom border border-2">Inicia
+                Sesión</a>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="musicTubeModal" tabindex="-1" aria-labelledby="musicTubeModalLabel" aria-hidden="true"
+        role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title titleCustom " id="musicTubeModalLabel">¡Suscríbete a Music Tube!</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-start">Subscribite a Music Tube para mantener al tanto de todas las noticias y
+                        lanzamientos de discos de tus artistas favoritos.</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label ms-1">Ingresa tu email.</label>
+                            <input type="email" class="form-control" id="email" placeholder="nombre@gmail.com" required
+                                maxlength="30">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger border border-2"
+                        data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-outline-light border border-2 btnCustom">Subscribirme</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--     =============== NAV BAR END =============== -->
+
+
+    <main class="row mainCustom">
+
+        <div class="row row-cols-1 row-cols-md-3 row-cols-sm-1 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card bg-transparent text-white border border-0 py-2 ">
+                    <img src="/Assets/Images/Cards/Bizarrap.jpg" class="card-img-top border border-3" alt="Bizarrap Card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom">Bizarrap</h5>
+                        <p class="card-text">Representar la Argentina por el Mundo es algo que soñe mucho.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-transparent text-white border border-0 py-2">
+                    <img src="/Assets/Images/Cards/hot-chip.jpg" class="card-img-top border border-3" alt="Hot Chip Card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom">Hot Chip</h5>
+                        <p class="card-text">Regresan a la Argentina para presentar «Freakout/Release»</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-transparent text-white border border-0 py-2">
+                    <img src="/Assets/Images/Cards/Trueno.jpg" class="card-img-top border border-3 imgCustom" alt="Trueno Card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom ">Trueno NPR Tiny Desk</h5>
+                        <p class="card-text">Nicki Nicole, su pareja, fue la última artista argentina en formar parte de la serie de sesiones de NPR</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-transparent text-white border border-0 py-2">
+                    <img src="/Assets/Images/Cards/CNCO_Rehearsal_BLMA-2022-Telemundo.jpg" class="card-img-top border border-3" alt="Billboard Card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom">Billboard Latin Music Awards</h5>
+                        <p class="card-text">La premiación que reconoce a la música latina se llevará a cabo a las 7pm/6C del día de hoy, jueves 29 de septiembre.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 row-cols-sm-1 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card bg-transparent text-white border border-0 py-2">
+                    <img src="/Assets/Images/Cards/THE-BEATS-2022-new.jpg" class="card-img-top border border-3" alt="The Beats Card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom">The Beats en el Gran Rex con "Bienvenidos"</h5>
+                        <p class="card-text">Presentan esta nueva experiencia con su renovado espectáculo, el 6 de octubre, recreando la música de los fabulosos de Liverpool en una noche repleta de magia y sorpresas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-transparent text-white border border-0 py-2">
+                    <img src="/Assets/Images/Cards/DAVID-LOZANO-P2-3.jpg" class="card-img-top border border-3" alt="David Lozano Card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom">David Lozano comparte el Lado A y B de su álbum 90</h5>
+                        <p class="card-text">La cumbia de los 90 's está de vuelta de la mano del cantante tucumano, que presenta los dos lados de su último álbum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-transparent text-white border border-0 py-2">
+                    <img src="/Assets/Images/Cards/Kevin-Johansen.jpg" class="card-img-top border border-3" alt="Kevin Johansen Card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom">Kevin Johansen iluminó el Gran Rex</h5>
+                        <p class="card-text">En el marco de su gira mundial "Tú Ve Tour", el artista presentó su nuevo álbum el 24 de septiembre en el Teatro Gran Rex.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-transparent text-white border border-0 py-2">
+                    <img src="/Assets/Images/Cards/Rei.jpg" class="card-img-top border border-3" alt="Rei Card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom">REI anuncia su próxima fecha en el Teatro Opera</h5>
+                        <p class="card-text">Luego de cinco semanas en el top #5 argentino, el artista urbano y tropical se presentará el 16 de noviembre en el Teatro Opera.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+    <!--     =============== FOOTER START =============== -->
+
+
+    <footer class="container-fluid text-light d-flex align-items-center justify-content-center"
+        style="background-color: rgba(0, 0, 0, 0.45);">
+        <div class="row">
+            <div class="col-12 col-lg-4 col-md-4 d-flex justify-content-center imgFooterCustom">
+                <img src="/Assets/Images/Logo/Logo4.png" alt="" style="width: 200px; height: 150px;" class="mt-4">
+            </div>
+            <div class="col-12 col-lg-4 col-md-8 d-flex align-items-center justify-content-center iconsCustom">
+                <div class="ps-4">
+                    <i class="bi bi-spotify fs-2 mx-2"></i>
+                </div>
+                <a class="linkCustom" href="/Pages/Error404.html" target="_blank">Spotify</a>
+                <div class="ps-4">
+                    <i class="bi bi-youtube fs-2 mx-2"></i>
+                </div>
+                <a class="linkCustom" href="/Pages/Error404.html" target="_blank">YouTube</a>
+                <div class="ps-4">
+                    <i class="bi bi-instagram fs-2 mx-2"></i>
+                </div>
+                <a class="linkCustom" href="/Pages/Error404.html" target="_blank">Instagram</a>
+            </div>
+            <div class="col-12 col-lg-4 col-md-12 fs-6  d-flex align-items-center justify-content-center ">
+                Somos un grupo de desarroladores apasionados por la Música. En esta página te traemos las últimas
+                noticias sobre tus artistas favoritos.
+            </div>
+            <hr class="border border-white border-1 opacity-100">
+            <p class="fs-6 px-3  text-center">
+                Music Tube. &copy; Todos los Derechos Reservados.
+            </p>
+        </div>
+
+    </footer>
+
+
+    <!--     =============== FOOTER END =============== -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

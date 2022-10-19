@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Mouse+Memoirs&family=Poppins:wght@300;400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    min-height: 100vh;
+}
+
+
+/* =============== NAV BAR START =============== */
+
+
+.logoMusic {
+    width: 90px;
+    height: 65px;
+}
+
+.cusmtomNavBar {
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.btnCustom {
+    border-color: #ffffff !important;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0)
+}
+
+.btn-outline-light {
+    border-color: #ffffff;
+}
+
+.btn-outline-light:hover {
+    color: #1CB5E0 !important;
+}
+
+.btn-info {
+    border-color: white;
+}
+
+
+/* =============== NAV BAR END=============== */
+
+
+/* =============== MODAL START =============== */
+
+
+.modal-content {
+    background: linear-gradient(90deg, #1CB5E0 0%, #056883 100%);
+    color: white;
+}
+
+.btnModalCustom {
+    background-color: #1CB5E0;
+    border-color: white;
+}
+
+
+/* =============== MODAL END=============== */
+
+
+/* =============== CAROUSEL START =============== */
+
+.mainCarousel {
+    max-height: 49rem;
+}
+
+.mainCarousel .carousel-item img {
+    max-height: 49rem;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    text-shadow: 1px 1px 2px #101010;
+}
+
+/* =============== CAROUSEL END =============== */
+
+
+/* =============== CARDS START =============== */
+
+.titleCustom {
+    text-shadow: 1px 1px 2px #101010;
+}
+
+
+/* =============== CARDS END =============== */
+
+
+/* =============== ASIDE START =============== */
+
+
+.iconoCustom svg {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.iconoCustom svg:hover {
+    color: #1CB5E0;
+}
+
+.btnSearchCustom {
+    max-height: 50px;
+}
+
+.accordion-body {
+    background: linear-gradient(90deg, #1CB5E0 0%, #056883 100%);
+}
+
+.accordion-button:hover {
+    color: #000851;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+}
+
+.accordion-button {
+    background: linear-gradient(90deg, #1CB5E0 0%, #056883 100%);
+    color: white;
+    
+}
+
+.btnAcordionCustom {
+    background: linear-gradient(90deg, #1CB5E0 0%, #056883 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 0;
+}
+
+.btnLiCustom {
+    background: linear-gradient(90deg, #1CB5E0 0%, #056883 100%);
+    color: rgb(255, 255, 255);
+    border-bottom: 1;
+    border-radius: 0;
+}
+
+.btnLiCustom:hover {
+    color: #000851 !important;
+}
+
+.carouselPublicidad {
+
+    object-fit: cover;
+}
+
+.sticky-top {
+    position: sticky;
+}
+
+
+/* =============== ASIDE END =============== */
+
+
+/* =============== FOOTER START =============== */
+
+
+.linkCustom {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.linkCustom:hover {
+    color: #1CB5E0;
+}
+
+
+/* =============== FOOTER END =============== */
